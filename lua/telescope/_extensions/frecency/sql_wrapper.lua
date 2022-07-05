@@ -3,7 +3,7 @@ local vim     = vim
 
 local has_sqlite, sqlite = pcall(require, "sqlite")
 if not has_sqlite then
-  error("This plugin requires sqlite.lua (https://github.com/tami5/sqlite.lua) " .. tostring(sqlite))
+  error("This plugin requires sqlite.lua (https://github.com/kkharji/sqlite.lua) " .. tostring(sqlite))
 end
 
 -- TODO: pass in max_timestamps from db.lua
